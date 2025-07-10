@@ -96,6 +96,91 @@ main{
 }
 
 /* users title */
+.users{
+    background-color:rgba(78,71,255,0.1) ;
+    padding: 50px 140px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.users_title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 0;
+}
+.users_detail{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.user_title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 0px;
+}
+.user_status{
+    color:#0000006f ;
+    font-size: 20px;
+   line-height: 0px;
+}
 
 
+/* style review section */
+.review{
+    margin: 120px 0px;
+   
+}
+.review_title{
+    font-size:42px ;
+    font-weight: bold;
+     text-align: center;
+}
 
+.review_container{  
+     display: flex;
+     gap:20px;
+}
+.review_box{
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+   border: 0.1px solid rgba(255, 166, 0, 0.088);
+}
+.star_container{
+    max-width: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.star_container img{
+    width: 20px;
+}
+.review_title_user{
+    font-size: large;
+    line-height: 2px;
+    color: #1E1E1E;
+}
+.review_des{
+    font-size: 16px;
+}
+.review_user{
+    display: flex;
+   align-items: center;
+   gap: 12px;
+}
+.profile img{
+    width:40px ;
+    border-radius: 50%;
+}
+.name{
+    font-size: 14px;
+    color:#757575 ;
+    line-height: 0px;
+}
+.user_details p{
+    color:#B3B3B3 ;
+    font-size: 12px;
+    line-height: 0px;
+}
