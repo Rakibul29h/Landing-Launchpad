@@ -61,5 +61,41 @@ nav .logo{
     font-size: 65px;
     font-weight: bold;
 }
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action section */
+.action{
+    margin: 120px 0px;
+    
+}
+.action_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action_content{
+    width: 517px;
+}
+.action_title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    line-height: 23px;
+}
+.action_des{
+    font-size: 24px;
+    color: #2524327b;
+}
+.action_img img{
+    width: 403px;
+    border-radius: 40px;
+}
+
+/* users title */
+
 
 
