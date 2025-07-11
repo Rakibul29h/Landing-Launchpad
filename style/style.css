@@ -20,10 +20,10 @@ body{
 /* heading style */
 
 header{
-    max-width: 1440px;
     height: 698px;
     background: url(../Assets/Hero-bg.png);
     margin: 0 auto;
+    background-size: contain;
 }
 nav{
     max-width:1140px ;
@@ -56,6 +56,8 @@ nav .logo{
 }
 /* banner */
 .banner_content{
+    margin: 0px auto;
+    max-width: 1140px;
     text-align: center;
     padding-top: 40px;
 }
@@ -252,4 +254,44 @@ main{
 }
 .touch_form button{
     padding: 20px;
+}
+
+/* footer section
+ */
+ footer{
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 104px;
+    margin-top: 90px;
+ }
+ .footer_content{
+    max-width: 513px;
+      margin: 0px auto;
+ }
+ .footer_logo{
+    color: #4E47FF;
+    font-size:100px ;
+    font-weight: 900;
+    line-height: 10px;
+ }
+ .footer_des{
+    color: #8987A1;
+    font-size: 16px;
+ }
+ .footer_link{
+    display: flex;
+    justify-content: center;
+ }
+ .footer_link ul {
+    list-style-type: none;
+        display: flex;
+    justify-content: center;
+    gap:48px ;
+ }
+.link{
+    color: #8987A1;
+    font-size: 16px;
+    text-decoration: none;
+  
 }
